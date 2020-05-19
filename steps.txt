@@ -1,0 +1,26 @@
+nuget packages
+
+install-package Microsoft.EntityFrameworkCore.Design
+install-package Microsoft.EntityFrameworkCore.SqlServer
+install-package Microsoft.EntityFrameworkCore.Tools
+
+Create OrderModel
+
+Create OrderDbContext
+
+appsetting connectionstring
+
+add startup configration 
+
+-------------------------------------------------
+add-migration orderdbmigration
+
+update-database
+
+-------------------------------------------------
+
+Create OrderDataAccess and IOrderDataAccess class
+
+Create OrderController
+
+check using postman
